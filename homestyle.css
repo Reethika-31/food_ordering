@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.home{
+    background-image: url("https://thumbs.dreamstime.com/b/indian-food-29155366.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+}
+.home .homeheader{
+    height:13%;
+    width:100%;
+    background-color: #7a7a7a69;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    border:0px ;
+    padding: 20px;
+    background-color: aquamarine;
+    height: 50px;
+    margin:  20px 100px 0 100px;
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+    line-height: 0.9;
+    border-radius: 15px;
+    transition: all 0.1s ease-in-out;
+    color: black;
+    font-weight: 600;
+}
+.brand-banner{
+    color:aliceblue;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+    font-size: 2.5rem;
+text-shadow: 2px 1px 1px var(rgb(115, 171, 220)), 5px 1px 2px var(rgb(38, 97, 152));
+}
+.btn:hover{
+    background-color: rgb(133, 235, 201);
+    box-shadow: 2px 0px 2px 1px rgb(118, 234, 195);
+    border-bottom: 2px solid rgb(36, 167, 124);
+}
+
+.register{
+    position: relative;
+    height: 100vh;
+    width:100vw;
+    background-image: url("https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?cs=srgb&dl=pexels-ella-olsson-1640772.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.register form{
+   background-color: #3b3b3b69;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   padding: 70px;
+   font-weight: 600;
+   color:aliceblue;
+   font-size: 1.1rem;
+}
+.register form a{
+    color:rgb(169, 207, 241);
+}
+
+h1{
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 40px;
+    color:azure;
+    
+}
+label{
+    font-size: large;
+    text-transform: capitalize;
+    margin-top: 8px;
+    font-size: 1.5rem;
+}
+.input{
+    background-color: #7a7a7a69;
+    padding: 8px;
+    margin-top: 2px;
+    outline: none;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+.input:focus{
+    box-shadow: 1px 0px 1px 0px gray;
+}
+.input::placeholder{
+    text-transform: capitalize;
+    font-size: 14px;
+    text-align: center;
+    color:aliceblue;
+}
+
+.error-msg{
+    background-color:crimson;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+}
